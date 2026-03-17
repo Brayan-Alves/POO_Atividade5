@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProdutoDAOLista implements ProdutoDAO {
+public class ProdutoDAOLista implements ProdutoDAO{
     private List<Produto> produtos = new ArrayList<>();
 
     @Override
